@@ -1,0 +1,45 @@
+body {
+    display: flex;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .tarjeta {
+    
+    width: 600px;
+    height: 1200px;
+    margin: 50px auto;
+    background: #ffffff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .encabezado {
+    background: linear-gradient(to right, #5c258d, #4389a2);
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    height: 220px;
+  }
+  
+  .encabezado img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+
+  }
+  
+  .cuerpo {
+    margin-top: 150px;
+    padding: 20px;
+    text-align: center;
+    
+  }
+  
+  h1 {
+    margin-bottom: 10px;
+    font-size: 50px
+  }
+  
